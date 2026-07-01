@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ευάγγελος N. Μπάστας - Χειρουργός Ουρολόγος</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        .container { width: 90%; max-width: 1100px; margin: 0 auto; padding: 20px; }
+        header.hero { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 60px 0; text-align: center; border-bottom: 5px solid #00d2ff; }
+        header.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header.hero h2 { font-size: 1.5rem; font-weight: 300; margin-bottom: 20px; color: #00d2ff; }
+        .hero-desc { max-width: 800px; margin: 0 auto 30px auto; font-size: 1.1rem; }
+        .btn { display: inline-block; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; }
+        .btn-primary { background-color: #00d2ff; color: #1e3c72; }
+        .btn-primary:hover { background-color: white; color: #1e3c72; transform: translateY(-2px); }
+        section { padding: 40px 0; background: white; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .section-title { text-align: center; color: #1e3c72; margin-bottom: 30px; font-size: 1.8rem; position: relative; }
+        .section-title::after { content: ''; display: block; width: 50px; height: 3px; background: #00d2ff; margin: 10px auto 0 auto; }
+        .specialties-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; text-align: center; }
+        .spec-card { background: #f8fafc; padding: 20px; border-radius: 8px; border-left: 4px solid #1e3c72; font-weight: 600; color: #1e3c72; }
+        .check-list { list-style: none; }
+        .check-list li { margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; }
+        .check-list i { color: #2ecc71; margin-right: 15px; font-size: 1.3rem; }
+        .image-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
+        .img-box { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .img-box img { width: 100%; height: 250px; object-fit: cover; display: block; }
+        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; text-align: center; }
+        .contact-card { background: #f8fafc; padding: 20px; border-radius: 8px; }
+        .contact-card h4 { color: #1e3c72; margin-bottom: 10px; }
+        .faq-item { margin-bottom: 20px; background: #f8fafc; padding: 15px; border-radius: 8px; }
+        .faq-item h5 { color: #1e3c72; font-size: 1.1rem; margin-bottom: 8px; }
+        footer { background: #1e3c72; color: white; text-align: center; padding: 20px 0; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Ευάγγελος Ν. Μπάστας</h1>
+            <h2>Χειρουργός Ουρολόγος - Ανδρολόγος</h2>
+            <p class="hero-desc">
+                Σύγχρονες ιατρικές υπηρεσίες με έδρα το Αγρίνιο. Πρώην ιατρός του Ογκολογικού Νοσοκομείου «Άγιος Σάββας» και Μέλος του Ιατρικού Συλλόγου Αγγλίας. Αποφοίτησε με <strong>Άριστα</strong>.
+            </p>
+            <div class="hero-buttons">
+                <a href="tel:2641021558" class="btn btn-primary">Κλήση: 26410 21558</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="specialties">
+        <div class="container">
+            <h3 class="section-title">Εξειδικεύσεις</h3>
+            <div class="specialties-grid">
+                <div class="spec-card">Στυτική δυσλειτουργία</div>
+                <div class="spec-card">Ανδρική Στειρότητα</div>
+                <div class="spec-card">Ογκολογία Ουροποιητικού</div>
+                <div class="spec-card">Ακράτεια Ούρων</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="container">
+            <h3 class="section-title">Τίτλοι & Νοσοκομειακή Εμπειρία</h3>
+            <div class="exp-content">
+                <ul class="check-list">
+                    <li><i class="fas fa-check"></i> Διευθυντής Ουρολογικής Kλινικής: Ιπποκρατείο Ίδρυμα Αγρινίου.</li>
+                    <li><i class="fas fa-check"></i> Συνεργάτης Ουρολογικής Κλινικής: Λευκός Σταύρος Αθηνών.</li>
+                    <li><i class="fas fa-check"></i> Νοσοκομειακή Θητεία: Πρώην Ιατρός της Ουρολογικής Κλινικής του Ογκολογικού Νοσοκομείου «Άγιος Σάββας».</li>
+                    <li><i class="fas fa-check"></i> Διεθνείς Διασυνδέσεις: Μέλος του Ιατρικού Συλλόγου της Αγγλίας (GMC).</li>
+                    <li><i class="fas fa-check"></i> Αριστούχος Σχολής: Ολοκλήρωσε τις σπουδές του με βαθμό Άριστα.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="procedures">
+        <div class="container">
+            <h3 class="section-title">Στο Ιατρείο Διενεργούνται</h3>
+            <div class="proc-content">
+                <ul class="check-list">
+                    <li><i class="fas fa-check"></i> Μικροεπεμβάσεις - Υδροκήλη - Χαλινός - Περιτομή.</li>
+                    <li><i class="fas fa-check"></i> Κυστεοσκόπηση με τοπική νάρκωση ή μέθη.</li>
+                    <li><i class="fas fa-check"></i> Ρομποτική και Λαπαροσκοπική χειρουργική.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h3 class="section-title">Φωτογραφίες του Ιατρείο:</h3>
+            <div class="image-grid">
+                <div class="img-box">
+                    <img src="https://i.postimg.cc/VN8qYbQn/SAVE-20260701-213514.jpg" alt="Μαργαρίτες">
+                </div>
+                <div class="img-box">
+                    <img src="https://i.postimg.cc/nzM1XjTX/SAVE-20260701-213506.jpg" alt="Γραφείο Ιατρείου">
+                </div>
+                <div class="img-box">
+                    <img src="https://i.postimg.cc/yd5yc1bH/SAVE-20260701-213459.jpg" alt="Σαλόνι Αναμονής">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3 class="section-title">Επικοινωνία &amp; Τοποθεσία</h3>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h4>Διεύθυνση</h4>
+                    <p>Πλατεία Ειρήνης 7, Αγρίνιο<br>3ος Όροφος</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Τηλέφωνα Επικοινωνίας</h4>
+                    <p>26410 21558<br>6937 256 045</p>
+                </div>
+                <div class="contact-card">
+                    <h4>Email</h4>
+                    <p>ev.mpastas@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="map-box" style="margin-top: 20px;">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.447547038167!2d21.4063889!3d38.6272222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135e1676dfaaaaab%3A0xabcdef1234567890!2sPl.%20Irinis%207%2C%20Agrinio%20301%2031!5e0!3m2!1sel!2ngr!4v1710000000000!5m2!1sel!2ngr" 
+                    width="100%" height="350" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h3 class="section-title">Συχνές Ερωτήσεις</h3>
+            <div class="faq-item">
+                <h5><i class="fas fa-question-circle"></i> Πότε μπορώ να κλείσω ραντεβού;</h5>
+                <p>Παρακαλούμε καλέστε στα τηλέφωνα επικοινωνίας για να προγραμματίσετε το ραντεβού...</p>
+            </div>
+            <div class="faq-item">
+                <h5><i class="fas fa-question-circle"></i> Λειτουργεί το ιατρείο χωρίς ραντεβού;</h5>
+                <p>Όχι, το ιατρείο λειτουργεί <strong>μόνο</strong> με ραντεβού.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Ευάγγελος Ν. Μπάστας - Χειρουργός Ουρολόγος</p>
+        </div>
+    </footer>
+
+</body>
+</html>
